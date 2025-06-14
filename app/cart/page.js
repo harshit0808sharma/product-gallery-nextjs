@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { ProductContext } from '../context/ProductContext';
 import Link from 'next/link';
 
-const cart = () => {
+const Cart = () => {
   const { store, removeFromCart, updateQuantity, totalPrice } = useContext(ProductContext);
 
   if (store.length === 0) return <div className="w-screen h-screen text-center bg-black text-white text-4xl flex justify-center items-center">Your Cart is Empty!</div>;
@@ -78,4 +78,4 @@ const cart = () => {
   )
 }
 
-export default cart
+export default Cart
