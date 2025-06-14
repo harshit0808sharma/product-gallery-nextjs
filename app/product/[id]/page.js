@@ -11,7 +11,7 @@ export default async function ProductPage({ params }) {
       <div className='w-full flex flex-wrap items-center justify-between p-5'>
         <Link href='/'>
           <h1 className="text-white font-extralight tracking-widest text-2xl">
-            TANN TRIM
+            NEXT SHOP
           </h1>
         </Link>
         <Navbar />

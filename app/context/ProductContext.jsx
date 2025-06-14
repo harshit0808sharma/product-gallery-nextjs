@@ -1,10 +1,8 @@
 'use client';
 
 import React, { createContext, useEffect, useState } from 'react';
-// import { products } from '../assets/data';
 import toast from "react-hot-toast";
 import axios from 'axios';
-// import { products } from '../assets/data';
 
 export const ProductContext = createContext();
 

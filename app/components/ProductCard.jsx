@@ -15,7 +15,7 @@ import { ProductContext } from '../context/ProductContext';
 import Card from './Card';
 
 
-const ProductCart = () => {
+const ProductCard = () => {
   const { setCategory, category } = useContext(ProductContext);
   // console.log(store);
   return (
@@ -58,4 +58,4 @@ const ProductCart = () => {
   )
 }
 
-export default ProductCart;
+export default ProductCard;

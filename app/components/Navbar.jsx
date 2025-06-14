@@ -12,8 +12,7 @@ const Navbar = () => {
         <li><CiSearch className="text-2xl" /></li>
         <li><CiUser className="text-2xl" /></li>
         <li><CiBookmark className="text-2xl" /></li>
-        <li><LiaShoppingBagSolid className="text-2xl" /></li>
-        {/* <li><Link href="/cart"><LiaShoppingBagSolid className="text-2xl" /></Link></li> */}
+        <li><Link href="/cart"><LiaShoppingBagSolid className="text-2xl" /></Link></li>
       </ul>
     </>
   )

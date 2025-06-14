@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-    domains: ['fakestoreapi.com'], // ✅ Add allowed image domain
+  images: {
+    domains: ['fakestoreapi.com'],
   },
-};
+}
 
-export default nextConfig;
+module.exports = nextConfig

@@ -4,8 +4,8 @@ import { Toaster } from "react-hot-toast";
 
 
 export const metadata = {
-  title: "Product Gallery",
-  description: "product gallery",
+  title: "NextShop",
+  description: "Next Shop",
 };
 
 export default function RootLayout({ children }) {

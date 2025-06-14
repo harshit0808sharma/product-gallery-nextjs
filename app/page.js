@@ -1,12 +1,12 @@
 import Header from "./components/Header";
-import ProductCart from "./components/ProductCart";
+import ProductCard from "./components/ProductCard";
 
 export default function Home() {
   return (
     <div className="w-full h-auto bg-black">
       <Header/>
       <div className="w-full h-auto">
-        <ProductCart/>
+        <ProductCard/>
       </div>
     </div>
   );

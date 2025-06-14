@@ -32,7 +32,7 @@ const Card = () => {
         {
           loading ? <h2 className='text-black text-4xl'>Loading...</h2> : (
             productList.map((item, index) => (
-              // <Link href={`/product/${item.id}`} key={index} className="block">
+              <Link href={`/product/${item.id}`} key={index} className="block">
                 <div className="bg-transparent rounded-lg shadow-md overflow-hidden h-[550px] flex flex-col" key={index}>
                   <div className="relative bg-white h-[450px] w-full p-6 md:p-10 flex items-center justify-center">
                     <Image
@@ -78,7 +78,7 @@ const Card = () => {
                     </div>
                   </div>
                 </div>
-              // </Link>
+              </Link>
 
             ))
           )
